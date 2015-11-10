@@ -15,6 +15,8 @@ import com.lpsmuseum.dto.object.Image;
 public class ImageDO extends MuseologicalObjectDO {
 	@Column(name="urlAddress")
 	String urlAddress;
+	@Column(name="text")
+	String description;
 
 	public String getUrlAddress() {
 		return urlAddress;
@@ -22,6 +24,16 @@ public class ImageDO extends MuseologicalObjectDO {
 
 	public void setUrlAddress(String urlAddress) {
 		this.urlAddress = urlAddress;
+	}
+	
+	public String getDescription()
+	{
+		return description;
+	}
+	
+	public void setDescription(String description)
+	{
+		this.description = description;
 	}
 	
 	@Override
@@ -34,6 +46,7 @@ public class ImageDO extends MuseologicalObjectDO {
 		image.setDate(c);
 		image.setObjectType(getObjectType());
 		image.setUrlAddress(getUrlAddress());
+		image.setDescription(getDescription());
 		return image;
 	}
 }

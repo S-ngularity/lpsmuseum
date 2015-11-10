@@ -37,8 +37,7 @@ public class MuseologicalObjectService {
 	public MuseologicalObjectDO findEntity(MuseologicalObject object) {
 		MuseologicalObjectDO objDO = new MuseologicalObjectDO();
 		objDO.setId(object.getId());
-		objDO.setName(object.getName());
-		return objDO;//(MuseologicalObjectDO)dao.findEntity(objDO);
+		return (MuseologicalObjectDO)dao.findEntity(objDO);
 	}
 	
 	public ArrayList<MuseologicalObject> listObjects(){
