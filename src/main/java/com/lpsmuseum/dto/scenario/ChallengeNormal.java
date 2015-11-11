@@ -1,6 +1,7 @@
 /*
  * DONE: Criado ChallengeNormal para converter ChallengeNormalDO
  */
+/*
 package com.lpsmuseum.dto.scenario;
 
 import com.lpsmuseum.dto.Scenario;
@@ -39,3 +40,4 @@ public class ChallengeNormal extends Challenge {
     private String question;
     private String answer;
 }
+*/

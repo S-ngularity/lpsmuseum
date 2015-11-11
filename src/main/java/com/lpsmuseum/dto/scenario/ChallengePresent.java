@@ -1,6 +1,7 @@
 /*
  * DONE: Criado ChallengePresent para converter ChallengeNormalDO
  */
+/*
 package com.lpsmuseum.dto.scenario;
 
 import com.lpsmuseum.dto.Scenario;
@@ -45,3 +46,4 @@ public class ChallengePresent extends Challenge {
     private String answer;
     private List<String> alternatives;
 }
+*/
